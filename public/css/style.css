@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
